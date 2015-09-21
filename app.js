@@ -1,4 +1,5 @@
 var main = function() {
+//    push the body to the left 285px from the left margin when the menu icon is clicked
     $('.icon-menu').click(function() {
         $('.menu').animate({
             left: '0px'
